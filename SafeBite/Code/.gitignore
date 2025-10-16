@@ -1,0 +1,27 @@
+@"
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Django specific
+db.sqlite3
+media/
+staticfiles/
+"@ | Out-File -Encoding UTF8 -FilePath .gitignore
